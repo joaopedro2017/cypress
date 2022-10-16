@@ -4,7 +4,7 @@
   "description": "cypress example",
   "main": "index.js",
   "scripts": {
-    "lint": "npx standard",
+    "lint": "npx standard", 
     "lint:fix": "npx standard --fix",
     "test": "cypress run",
     "test:exemploBasico": "cypress run --config baseUrl=https://ticket-box.s3.eu-central-1.amazonaws.com/index.html --spec cypress/integration/exemploBasico/tickets.spec.js",
