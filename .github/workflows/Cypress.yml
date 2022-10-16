@@ -20,7 +20,7 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-        cache-dependency-path: subdir/pakage-lock.json
+        cache-dependency-path: './pakage-lock.json'
     - run: npm ci
     - run: npm run test:exemploBasico
     - run: npm run test:exemploAvancadoHackerNewsSearch
