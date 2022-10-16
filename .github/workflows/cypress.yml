@@ -4,8 +4,10 @@
 name: FluxoCypress
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
